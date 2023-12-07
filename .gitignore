@@ -1,2 +1,3 @@
 .metals
-bazel-*
+project/project
+**/target

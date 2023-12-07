@@ -1,0 +1,5 @@
+scalaVersion := "2.13.12"
+name := "example"
+organization := "ch.epfl.scala"
+version := "1.0"
+libraryDependencies += "org.typelevel" %% "cats-effect" % "2.5.3"
