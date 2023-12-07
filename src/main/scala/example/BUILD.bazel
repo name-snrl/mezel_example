@@ -1,0 +1,11 @@
+load("@io_bazel_rules_scala//scala:scala.bzl", "scala_binary")
+
+scala_binary(
+    name = "example",
+    srcs = ["Main.scala"],
+    main_class = "example.Main",
+    visibility = ["//visibility:public"],
+    deps = [
+      "@maven//:org_typelevel_cats_effect_2_13",
+    ],
+)
